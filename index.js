@@ -10,7 +10,7 @@ document.getElementById("calculate").addEventListener("click", (e) => {
     function averageAge(superHeroes){
         let counter = 0;
         let divide = 0;
-        let total = 0; // Declare the total variable
+        let total = 0; 
         
         for (const [key, value] of Object.entries(superHeroes)) {
             counter += value; 
