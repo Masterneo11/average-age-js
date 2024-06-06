@@ -1,5 +1,5 @@
 document.getElementById("calculate").addEventListener("click", (e) => {
-    
+
     const superHeroes = {
         Tony: 42,
         Peter: 18,
@@ -7,13 +7,13 @@ document.getElementById("calculate").addEventListener("click", (e) => {
         Bruce: 38,
         Thor: 1055
     };
-    function averageAge(superHeroes){
+    function averageAge(superHeroes) {
         let counter = 0;
         let divide = 0;
-        let total = 0; 
-        
+        let total = 0;
+
         for (const [key, value] of Object.entries(superHeroes)) {
-            counter += value; 
+            counter += value;
             divide += 1;
         }
         total = counter / divide;
